@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Comatable" content="ie=edge">    
+        <link rel="stylesheet" href="style.css">
+        <title>WEIGHT CONVERTER</title>    
+    </head>
+    <body>
+        <div class="pack">
+            <div class="name-input">
+                <h1>WEIGHT CONVERTER</h1><br>
+                <b><h3>SELECT POUNDS</h3></b><br>
+                <input type="number" id="input"><br><br>
+            </div>
+            <div class="convertTo">
+                <div id="KG" class="grid">
+                    <h2>Killogram</h2>
+                    <div id="kg">       
+                    </div>
+                </div><br>
+                <div id="GRAM" class="grid">
+                    <h2>Gram</h2>
+                    <div id="gram"></div>
+                </div><br>
+                <div id="OZ" class="grid">
+                    <h2>Ounce</h2>
+                    <div id="oz"></div>
+                </div><br>
+                <div id="USTONE" class="grid">
+                    <h2>US Ton</h2>
+                    <div id="ustone"></div>
+                </div><br>
+            </div>    
+        </div>    
+    </body>
+    <script>
+        document.getElementById('input').addEventListener('input', function(e){
+            let pounds = e.target.value;
+
+        document.getElementById('kg').innerText = pounds*0.453592;
+        document.getElementById('gram').innerText = pounds*453.592;
+        document.getElementById('oz').innerText = pounds*16;
+        document.getElementById('ustone').innerText = pounds*0.0005;            
+        })
+        
+    </script>   
+</html>

@@ -1,0 +1,84 @@
+body{
+    background-color: lightblue;
+}
+*{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.3em;
+}
+#KG{
+    border:3px solid white;
+    background-color: lightgreen;
+    margin: 3em;
+    width: 300px;
+    height: 4em;
+    position: relative;
+    left:0;
+    right:0;
+    margin: auto;
+    padding: 2em;
+    
+}
+#GRAM{
+    border:3px solid white;
+    background-color: orange;
+    margin: 3em;
+    padding: 2em;
+    width: 300px;
+    height: 4em;
+    position: relative;
+    left:0;
+    right:0;
+    margin: auto;
+}
+#OZ{
+    border:3px solid white;
+    background-color: pink ;
+    margin: 3em;
+    padding: 2em;
+    width: 300px;
+    height: 4em;
+    position: relative;
+    left:0;
+    right:0;
+    margin: auto;;
+}
+#USTONE{
+    border:3px solid white;
+    background-color: lightsalmon ;
+    margin: 3em;
+    padding: 2em;
+    width: 300px;
+    height: 4em;
+    position: relative;
+    left:0;
+    right:0;
+    margin: auto;;
+}
+h3{
+    border:2px solid white;
+    background-color: black;
+    color: white;
+    width: 300px;
+    position: relative;
+    left:0;
+    right:0;
+    margin: auto;
+   
+    
+}
+h1{
+    border:2px solid white;
+    background-color: black;
+    color: white;
+    width: 600px;
+    position: relative;
+    left:0;
+    right:0;
+    margin: auto;
+    padding: 0.6em;
+}
+#input{
+    height: 20px;
+
+}
